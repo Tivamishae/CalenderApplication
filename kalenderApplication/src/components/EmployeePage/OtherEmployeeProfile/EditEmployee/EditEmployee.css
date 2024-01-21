@@ -1,0 +1,180 @@
+.EditEmployee {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 330px;
+  background-color: #6c8d9a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.EditEmployeeBackButtonContainer {
+  width: 30px;
+  height: 100%;
+}
+
+.EditEmployeeBackButton {
+  border: none;
+  float: left;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.7rem;
+  width: 80px;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+}
+
+.EditEmployeeBackButton:hover {
+  border: none;
+  float: left;
+  background-color: rgb(45, 45, 45);
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+}
+
+.EditEmployeeMainArea {
+  width: 100%;
+  height: 90%;
+  display: flex;
+}
+
+.EditEmployeeEditArea {
+  width: 100%;
+  height: 100%;
+  background-color: #6c8d9a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EditEmployeeEditAreaContent {
+  background-color: rgb(125, 163, 179);
+  border-left: 50px solid rgb(125, 163, 179);
+  border-radius: 50px;
+  width: 70%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.EditEmployeeProfileIcon {
+  width: 150px;
+  height: 150px;
+  background-color: #2a515f;
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.EditEmployeeID {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.EditEmployeeChangeableBox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.EditEmployeeChangeableTraitContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: black;
+  width: 400px;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+
+.EditEmployeeChangeableTraitContainerGroups {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  color: black;
+  width: 400px;
+  height: 120px;
+}
+
+.EditEmployeeNameInput {
+  width: 250px;
+  height: 30px;
+  font-size: 1.5rem;
+  background-color: white;
+  border: none;
+}
+
+.EditEmployeeTypeSelect {
+  width: 255px;
+  height: 30px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: white;
+}
+
+.EditEmployeeSelectGroups {
+  width: 250px;
+  height: 100px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+.EditEmployeeGroupButton {
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(118, 118, 118);
+}
+
+.EditEmployeeGroupButtonSelected {
+  width: 100%;
+  height: 40px;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(118, 118, 118);
+  background-color: rgb(203, 230, 186);
+}
+
+.EditEmployeeButtonsArea {
+  height: 100%;
+  width: 352px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 2px solid #2d7994;
+}
+
+.EditEmployeeButton {
+  height: 40px;
+  width: 200px;
+  border-radius: 20px;
+  border: 2px solid black;
+  background-color: transparent;
+  font-size: 1.3rem;
+}
+
+.EditEmployeeButton:hover {
+  border: 2px solid rgb(59, 59, 255);
+  color: rgb(59, 59, 255);
+}

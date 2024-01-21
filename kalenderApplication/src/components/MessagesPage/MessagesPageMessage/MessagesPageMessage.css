@@ -1,0 +1,66 @@
+.MessagesPageMessageYour {
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MessagesPageMessageTheir {
+  width: 100%;
+  color: black;
+  display: flex;
+}
+
+.MessagesPageMessageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.YourMessagesPageMessageLeft {
+  width: 500px;
+  background-color: rgb(113, 160, 189);
+  filter: drop-shadow(3px 3px 3px #123e5c);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.TheirMessagesPageMessageLeft {
+  width: 500px;
+  background-color: rgb(210, 127, 127);
+  filter: drop-shadow(3px 3px 3px #3d0d0d);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+.MessageInformationContainer {
+  display: flex;
+  color: rgb(0, 0, 0);
+}
+
+.MessagesPageMessageTextContainer {
+  width: 90%;
+  min-height: 50px;
+  display: flex;
+}
+
+.MessagesPageMessageRight {
+  width: 200px;
+  background-color: white;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EmptyPartBelowMessage {
+  height: 70px;
+  width: 500px;
+}

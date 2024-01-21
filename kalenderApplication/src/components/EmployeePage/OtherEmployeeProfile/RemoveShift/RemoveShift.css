@@ -1,0 +1,110 @@
+.RemoveShift {
+  width: 100%;
+  height: Calc(100% - 330px);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.RemoveShiftTitle {
+  font-size: 4rem;
+  color: black;
+  font-weight: bold;
+}
+
+.RemoveShiftContentBox {
+  width: 600px;
+  height: 340px;
+  background-color: rgb(179, 179, 179);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 10px solid rgb(179, 179, 179);
+  border-bottom: 10px solid rgb(179, 179, 179);
+}
+
+.RemoveShiftUpcomingShiftPlaceDateTimeContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.RemoveShiftUpcomingShift {
+  width: 90%;
+  height: 150px;
+  color: black;
+  border: none;
+  border-bottom: 20px solid rgb(179, 179, 179);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.RemoveShiftUpcomingShiftPressed {
+  width: 90%;
+  height: 150px;
+  color: rgb(0, 9, 141);
+  border: none;
+  border-bottom: 20px solid rgb(179, 179, 179);
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(140, 140, 251);
+}
+
+.RemoveShiftUpcomingShiftPlace {
+  font-size: 2rem;
+}
+
+.RemoveShiftUpcomingShiftDateAndTime {
+  font-size: 1.5rem;
+}
+
+.RemoveShiftUpcomingShiftAdditionalInformationTitle {
+  font-size: 1.4rem;
+}
+
+.RemoveShiftUpcomingShiftAdditionalInformation {
+  width: 250px;
+  height: 80px;
+  resize: none;
+  position: relative;
+  color: black;
+  border: 2px solid rgb(147, 147, 147);
+  overflow-y: scroll;
+}
+
+.RemoveShiftButtonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.RemoveShiftButton {
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border: none;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(255, 123, 123);
+}
+
+.RemoveShiftButton:hover {
+  width: 100px;
+  height: 50px;
+  border-top-left-radius: 30px;
+  border: none;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(255, 78, 78);
+}

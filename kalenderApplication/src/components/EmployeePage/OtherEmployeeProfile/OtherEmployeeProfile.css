@@ -1,0 +1,244 @@
+.OtherEmployeeProfile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OtherEmployeeProfileBackgroundOpacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.OtherEmployeeMainArea {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-color: #6c8d9a;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.OtherEmployeeButtonContainer {
+  width: 80px;
+  height: 100%;
+}
+
+.OtherEmployeeBackButton {
+  border: none;
+  float: left;
+  background-color: transparent;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.7rem;
+  width: 80px;
+  height: 30px;
+  border-bottom-right-radius: 10px;
+}
+
+.OtherEmployeeBackButton:hover {
+  border: none;
+  float: left;
+  background-color: rgb(45, 45, 45);
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+}
+
+.OtherEmployeeUpperPartArea {
+  width: 100%;
+  height: 330px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.OtherEmployeeUpperPartContent {
+  width: 100%;
+  display: flex;
+  height: 330px;
+  align-items: center;
+  justify-content: center;
+}
+
+.OtherEmployeeProfileImageArea {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.OtherEmployeeProfileImage {
+  width: 150px;
+  height: 150px;
+  background-color: #2a515f;
+  border-radius: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.OtherEmployeeEmployeeType {
+  color: red;
+  font-size: 2rem;
+}
+
+.OtherEmployeeName {
+  color: black;
+  font-size: 2.5rem;
+}
+
+.OtherEmployeeID {
+  color: black;
+  font-size: 1.5rem;
+}
+
+.OtherEmployeeGroupsContainer {
+  width: 60%;
+  height: 200px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.OtherEmployeeGroups {
+  width: 60%;
+  height: 100%;
+  background-color: #6c8d9a;
+  overflow-y: scroll;
+  border-bottom: 5px solid white;
+  border-top: 5px solid white;
+}
+
+.OtherEmployeeLoneGroup {
+  font-size: 1.5rem;
+  font-weight: normal;
+  height: 50px;
+  color: black;
+  background-color: rgb(212, 212, 212);
+  border-bottom: 10px solid #6c8d9a;
+  border-right: 10px solid #6c8d9a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.OtherEmployeeButtonsArea {
+  width: 350px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-left: 2px solid #2d7994;
+}
+
+.OtherEmployeeButton {
+  height: 30px;
+  width: 200px;
+  border-radius: 15px;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.OtherEmployeeButton:hover {
+  border: 2px solid rgb(59, 59, 255);
+  color: rgb(59, 59, 255);
+}
+
+.OtherEmployeeContentArea {
+  width: 100%;
+  height: Calc(100% - 380px);
+  display: flex;
+  flex-direction: row;
+}
+
+.OtherEmployeeContentAreaLeft {
+  width: 50%;
+  color: black;
+  border-right: 2px solid #2d7994;
+  border-top: 2px solid #2d7994;
+}
+.OtherEmployeeContentAreaMiddle {
+  width: 50%;
+  color: black;
+  border-top: 2px solid #2d7994;
+}
+.OtherEmployeeContentAreaRight {
+  width: 100%;
+  color: black;
+  border-left: 2px solid #2d7994;
+  border-top: 2px solid #2d7994;
+}
+
+.OtherEmployeeScrollTitle {
+  width: 100%;
+  font-size: 2rem;
+  height: 50px;
+  background-color: #eaeaea;
+  color: #2d7994;
+}
+
+.OtherEmployeeScroll {
+  width: 100%;
+  overflow-y: scroll;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.OtherEmployeeScrollShiftsBox {
+  height: 150px;
+  width: 100%;
+  font-size: 1.5rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.OtherEmployeeScrollReportsBox {
+  height: 250px;
+  width: 100%;
+  font-size: 1.4rem;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.OtherEmployeeScrollSeparation {
+  height: 30px;
+  background-color: #eaeaea;
+}
+
+.OtherEmployeeReportLongText {
+  width: 80%;
+  height: 150px;
+  overflow-y: scroll;
+  border-top: 2px solid rgb(146, 146, 146);
+  border-bottom: 2px solid rgb(146, 146, 146);
+  font-size: 1.2rem;
+}

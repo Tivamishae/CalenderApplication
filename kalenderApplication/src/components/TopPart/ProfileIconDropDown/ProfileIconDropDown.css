@@ -1,0 +1,27 @@
+.ProfileIconDropDown {
+  width: 100px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+  top: -200px;
+}
+
+.ProfileIconDropDown button {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid rgb(128, 128, 128);
+  transition: background-color 0.3s ease;
+}
+
+.ProfileIconDropDown button:hover {
+  background-color: rgb(125, 200, 154);
+}
+
+.DropDownLogOut {
+  font-weight: 800;
+}

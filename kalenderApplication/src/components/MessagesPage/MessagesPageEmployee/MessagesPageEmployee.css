@@ -1,0 +1,43 @@
+.MessagesPageEmployee {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: none;
+  border-bottom: 2px solid rgb(187, 187, 187);
+}
+
+.MessagesPageEmployee:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.MessagesPageEmployeeProfileIcon {
+  width: 70px;
+  height: 70px;
+  background-color: #2a515f;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.MessagesPageEmployeeNameAndEmployeeType {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.MessagesPageEmployeeName {
+  color: #2a515f;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.MessagesPageEmployeeEmployeeType {
+  color: red;
+}

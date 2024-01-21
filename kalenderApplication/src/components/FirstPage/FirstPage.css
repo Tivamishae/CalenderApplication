@@ -1,0 +1,92 @@
+.FirstPage {
+  width: 1000px;
+  height: 600px;
+  border-radius: 50px;
+  filter: drop-shadow(20px 20px 4px #293d4c);
+  background-image: url("../../assets/Mountains.jpeg");
+  background-size: cover;
+}
+
+.FirstPageLogo {
+  width: 400px;
+  height: 200px;
+  background-image: url("../../assets/DuranLogoText.png");
+  background-size: cover;
+}
+
+.FirstPageTitle {
+  font-size: 3rem;
+}
+
+.FirstPageContentContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.LeftContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 250px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InformationBox {
+  height: 200px;
+  width: 400px;
+  outline: 2px dotted rgb(0, 0, 0);
+  margin-bottom: 50px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.FirstPageButton {
+  background-color: transparent;
+  position: relative;
+  padding: 1.4rem 4.2rem;
+  padding-right: 3.1rem;
+  font-size: 1.4rem;
+  color: white;
+  letter-spacing: 1.1rem;
+  text-transform: uppercase;
+  transition: all 500ms cubic-bezier(0.77, 0, 0.175, 1);
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+}
+
+.FirstPageButton:before,
+.FirstPageButton:after {
+  content: "";
+  position: absolute;
+  transition: inherit;
+  z-index: -1;
+}
+
+.from-top:before,
+.from-top:after {
+  left: 0;
+  height: 0;
+  width: 100%;
+}
+
+.from-top:before {
+  bottom: 0;
+  border: 1px solid var(--inv);
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.from-top:hover:before,
+.from-top:hover:after {
+  height: 100%;
+}
+
+.FirstPageInteractableArea {
+  display: flex;
+  justify-content: space-around;
+  height: 600px;
+  width: 600px;
+  flex-direction: column;
+  align-items: center;
+}

@@ -1,0 +1,102 @@
+.MessagesPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: Calc(100% - 2px);
+}
+
+.BehindTopPart {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.MessagesPageBody {
+  width: 100%;
+  height: Calc(100% - 50px);
+  display: flex;
+}
+
+.MessagesPageBodyLeft {
+  width: 300px;
+  height: 100%;
+  background-color: white;
+}
+
+.MessagesPageBodyLeftTop {
+  width: 300px;
+  height: 100px;
+  border-bottom: 2px solid rgb(187, 187, 187);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #2a515f;
+}
+
+.MessagesPageBodyLeftTop input {
+  width: 70%;
+  height: 30px;
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgb(173, 173, 173);
+}
+
+.MessagesPageBodyLeftMain {
+  width: 300px;
+  height: Calc(100% - 102px);
+  overflow-y: scroll;
+}
+
+.MessagesPageBodyChat {
+  width: Calc(100% - 300px);
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-left: 2px solid rgb(187, 187, 187);
+}
+
+.MessagesPageBodyChatTop {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgb(187, 187, 187);
+  background-color: #2a515f;
+}
+
+.MessagesPageBodyChatTopName {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.MessagesPageBodyChatTopEmployeeType {
+  font-size: 2rem;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.MessagesPageBodyChatMiddle {
+  height: Calc(100% - 172px);
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.MessagesPageBodyChatBottom {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 2px solid rgb(187, 187, 187);
+  background-color: rgb(234, 234, 234);
+}
+
+.MessagesPageBodyChatBottom input {
+  height: 20px;
+  width: 300px;
+}

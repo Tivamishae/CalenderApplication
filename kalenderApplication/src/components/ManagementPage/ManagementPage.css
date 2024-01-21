@@ -1,0 +1,121 @@
+.ManagementPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.BehindTopPart {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.ManagementPageTitleArea {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(-25deg, #424141 0%, #6c8d9a 40%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  color: rgb(166, 215, 218);
+}
+
+.ManagementPageBody {
+  width: 100%;
+  height: Calc(100% - 250px);
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.ManagementPageSeparation {
+  height: 3px;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+}
+
+.ManagementPageBodyLeft {
+  background-image: url("../../assets/RecruitingBackground.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: width 0.5s ease;
+  border: none;
+}
+
+.ManagementPageBodyLeft:hover {
+  width: 130%;
+}
+
+.ManagementPageBodyTitle {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.ManagementPageCreateEmployee {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../assets/CreateEmployeeIcon.png");
+  background-size: cover;
+}
+
+.ManagementPageBodyMiddle {
+  background-size: cover;
+  background-image: url("../../assets/ExpandDataBackground.png");
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: width 0.3s ease;
+  border: none;
+}
+
+.ManagementPageBodyMiddle:hover {
+  width: 130%;
+}
+
+.ManagementPageExpandData {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../assets/ExpandDataIcon.png");
+  background-size: cover;
+}
+
+.ManagementPageBodyRight {
+  background-image: url("../../assets/GlobalActionsBackground.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: width 0.5s ease;
+  border: none;
+}
+
+.ManagementPageBodyRight:hover {
+  background-color: white;
+  width: 130%;
+}
+
+.ManagementPageGlobalActions {
+  width: 300px;
+  height: 300px;
+  background-image: url("../../assets/GlobalActionIcon.png");
+  background-size: cover;
+}

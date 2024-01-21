@@ -1,0 +1,81 @@
+.ScheduleEmployee {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ScheduleEmployeeLeftSide {
+  width: 299px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-right: 2px solid rgb(197, 197, 197);
+}
+
+.EmployeeProfilePictureContainer {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.EmployeeProfilePicture {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.3rem;
+  background-color: #2a515f;
+  border-radius: 70px;
+}
+
+.ScheduleEmployeeName {
+  width: 150px;
+  font-size: 1.5rem;
+  color: rgb(96, 96, 96);
+  font-weight: bold;
+}
+
+.ScheduleEmployeeID {
+  width: 150px;
+  font-size: 1rem;
+  color: rgb(96, 96, 96);
+  font-weight: bold;
+}
+
+.ScheduleEmployeePosition {
+  color: rgb(160, 55, 55);
+  width: 150px;
+  font-weight: bold;
+}
+
+.SchedulePageEmployeeMiddleSide {
+  height: 100%;
+  width: Calc(100% - 390px);
+  display: flex;
+}
+
+.SchedulePageEmployeeMiddleSideContent {
+  width: Calc(100% - 40px);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.UnderneathChangeWeekButton {
+  height: 100%;
+  width: 40px;
+}
+
+.SchedulePageEmployeeRightSide {
+  width: 85px;
+  border-left: 2px solid rgb(197, 197, 197);
+  height: 100%;
+}

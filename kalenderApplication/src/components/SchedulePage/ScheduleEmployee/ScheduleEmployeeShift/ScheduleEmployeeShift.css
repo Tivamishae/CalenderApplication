@@ -1,0 +1,48 @@
+.ScheduleEmployeeShift {
+  width: Calc((80% - 80px) / 7);
+  height: 80px;
+}
+
+.ScheduleShiftActive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background-image: linear-gradient(-25deg, #7f1111 0%, #e62f2f 100%);
+  filter: drop-shadow(3px 3px 3px #3d0d0d);
+}
+
+.ScheduleShiftActive:hover {
+  background-image: linear-gradient(-25deg, #400909 0%, #961f1f 100%);
+}
+
+.ScheduleShiftInactive {
+  background-color: transparent;
+  color: transparent;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+  transition: color 0.3s ease;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}
+
+.ScheduleShiftInactive:hover {
+  opacity: 100;
+  background-color: rgb(120, 185, 120);
+  color: rgb(55, 99, 53);
+  font-weight: bold;
+}
+
+.ScheduleShiftTime {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.ScheduleShiftPlace {
+  font-size: 1rem;
+  font-weight: bold;
+}

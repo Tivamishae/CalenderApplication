@@ -1,0 +1,66 @@
+.DisplayedShiftPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.DisplayedShiftBackgroundOpacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.DisplayedShiftMainArea {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(-25deg, #7f1111 0%, #e62f2f 100%);
+  filter: drop-shadow(10px 10px 5px #3d0d0d);
+  z-index: 2;
+}
+
+.DisplayedShiftBackButton {
+  border: none;
+  float: left;
+  background-color: white;
+  opacity: 70%;
+  color: rgb(0, 0, 0);
+}
+
+.DisplayedShiftTitle {
+  font-size: 4rem;
+}
+
+.DisplayedShiftContentContainerUpper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+}
+
+.DisplayedShiftContentContainerLower {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 30%;
+}
+
+.DisplayedShiftContent {
+  font-size: 2rem;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

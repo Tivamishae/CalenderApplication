@@ -1,0 +1,124 @@
+.EmployeePage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.BehindTopPart {
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.EmployeePageTitleArea {
+  width: 100%;
+  height: 150px;
+  background-image: linear-gradient(-25deg, #424141 0%, #6c8d9a 40%);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 4rem;
+  color: rgb(166, 215, 218);
+}
+
+.EmployeePageMainArea {
+  height: Calc(100% - 250px);
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EmployeeArea {
+  height: 100%;
+  width: 85%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.EmployeeAreaTop {
+  height: 20px;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+  display: flex;
+}
+
+.EmployeeAreaTopFilters {
+  height: 25px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  color: black;
+  font-size: 1.4rem;
+}
+
+.SwitchPagesButton {
+  height: 25px;
+  width: 21px;
+  background-size: cover;
+  border: none;
+}
+
+.Right {
+  background-image: url("../../assets/Right_Arrow.png");
+}
+
+.Left {
+  background-image: url("../../assets/Left_Arrow.png");
+}
+
+.EmployeePageSelect {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+
+.EmployeeSearchBar {
+  width: 150px;
+  height: 25px;
+  border: none;
+}
+
+.EmployeePageSeperator {
+  height: 25px;
+  width: 100%;
+}
+
+.EmployeeSpreadSheetTop {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid rgb(126, 181, 211);
+}
+
+.EmployeeInformationText {
+  color: rgb(126, 181, 211);
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100px;
+}
+
+.Empty {
+  color: transparent;
+  background-color: transparent;
+}
+
+.EmployeeSpreadSheetBody {
+  width: 100%;
+  height: 78%;
+  background-color: white;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
