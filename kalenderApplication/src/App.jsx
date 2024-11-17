@@ -257,7 +257,7 @@ function App() {
               messageId: "076301",
               sender: "07630",
               message:
-                "Hallå Hugo, är det bra? Jag har fixat express applicationen nu så build fungerar. Är du klar med frontend versionen av applicationen? Jag vill inte att indierna ska göra det.",
+                "hdusaguydgsauihdsyagud",
               dateAndTime: { date: "2023-06-02", time: "17-06" },
             },
           ],
